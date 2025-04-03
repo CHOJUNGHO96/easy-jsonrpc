@@ -20,6 +20,6 @@ class Calculator:
 
 
 # 서버 초기화 및 클래스 등록
-server = EasyJSONRPCServer('localhost', 9090)
+server = EasyJSONRPCServer("localhost", 9090)
 server.register_class(Calculator)  # Calculator의 모든 메서드 등록
 server.start()
