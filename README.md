@@ -4,12 +4,17 @@ Python의 jsonrpclib-pelix(jsonrpclib의 Python 3 호환 포크)와 Go의 github
 
 ## 특징
 
-- Python 3.5+ 지원
+- Python 3.5 ~ 3.9 지원
 - Python(jsonrpclib-pelix)과 Go(github.com/filecoin-project/go-jsonrpc) 간의 상호 운용성
 - 간단한 API로 쉬운 사용
 - 양방향 통신 및 알림(단방향) 지원
 - 자동 메서드 등록 및 네임스페이스 관리
 - Python과 Go 환경 간의 호환성 문제 자동 해결
+
+## 시스템 요구 사항
+
+- Python 3.5, 3.6, 3.7, 3.8, 3.9 (이 라이브러리는 현재 Python 3.10 이상에서는 테스트되지 않았습니다)
+- Go 클라이언트 사용시: Go 1.13 이상 및 github.com/filecoin-project/go-jsonrpc 라이브러리
 
 ## 라이브러리 통합
 
