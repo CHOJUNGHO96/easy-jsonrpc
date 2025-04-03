@@ -47,7 +47,7 @@ class EasyJSONRPCClient:
 
         # Go 서버를 위한 조정
         if self.is_go_server:
-            if not full_method.startswith("."):
+            if "." not in full_method and not full_method.startswith("."):
                 full_method = ".{}".format(full_method)
 
         print("[CLIENT] Calling {} with params: {}".format(full_method, params))
@@ -88,8 +88,9 @@ class EasyJSONRPCClient:
             full_method = method
 
         # Go 서버를 위한 조정
-        if self.is_go_server and not full_method.startswith("."):
-            full_method = ".{}".format(full_method)
+        if self.is_go_server:
+            if "." not in full_method and not full_method.startswith("."):
+                full_method = ".{}".format(full_method)
 
         print(
             "[CLIENT] Sending notification to {} with params: {}".format(
