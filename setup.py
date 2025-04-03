@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="easy-jsonrpc",
-    version="0.1.2",
+    version="0.1.3",
     author="ChoJungHo",
     author_email="jo4186@naver.com",
     description="Easy JSON-RPC library for Python and Go interoperability",
