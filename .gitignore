@@ -1,0 +1,159 @@
+# Python 바이트 코드
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 확장
+*.so
+
+# 배포 / 패키징
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 인스톨러 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 유닛 테스트 / 커버리지 리포트
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 번역
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx 문서화
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat 스케줄 파일
+celerybeat-schedule
+
+# SageMath 파일
+*.sage.py
+
+# 환경 설정
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+venv*/
+
+# Spyder 프로젝트 설정
+.spyderproject
+.spyproject
+
+# Rope 프로젝트 설정
+.spyproject
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm
+*.iml
+*.iws
+*.ipr
+*.iws
+.idea/
+out/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Go 바이너리 파일
+examples/go/function_client
+examples/go/calculator_client
+examples/go/*.exe
+
+# 개발 환경 설정
+.pypirc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# 로그 파일
+*.log
+log/
+logs/
+
+# 임시 파일
+tmp/
+temp/
+*.tmp 
